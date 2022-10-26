@@ -24,6 +24,8 @@ public class ConfigDevelopment {
 					+ "*** IP:"+ InetAddress.getLocalHost().getHostAddress() +"                                             ***\r\n"
 					+ "*** DATABASE: "+ nameDatabase +"                                     ***\r\n"
 					+ "*******************************************************************");
+			
+			System.out.println("\u001B[30m");
 		};
 	}
 	
